@@ -14,7 +14,7 @@ function buildHead() {
   metaViewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
 
   const title = document.createElement('title');
-  title.textContent = 'Tsubasa List';
+  title.textContent = 'Miri List';
   document.head.appendChild(title);
 
   const metaRobots = document.createElement('meta');

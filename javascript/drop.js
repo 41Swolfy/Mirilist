@@ -10,7 +10,7 @@ function createDropdownMenu() {
 
     // create h1 element
     const h1 = document.createElement("h1");
-    h1.textContent = "Tsubasa List";
+    h1.textContent = "Miri List";
 
     // append h1 to link and link to header
     link.appendChild(h1);
