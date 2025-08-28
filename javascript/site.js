@@ -14,7 +14,7 @@ function createDropdownMenu() {
 
     // create h1 element
     const h1 = document.createElement("h1");
-    h1.textContent = "Tsubasa List";
+    h1.textContent = "Miri List";
 
    
     link.appendChild(h1);
@@ -116,7 +116,7 @@ function buildbody() {
     const body = document.getElementsByTagName('body')[0];
 
     const Main = document.createElement('div');
-    Main.setAttribute('id', 'Tsubasa-list-main');
+    Main.setAttribute('id', 'Miri-list-main');
     body.appendChild(Main);
 
     const layoutWide = document.createElement('div');
@@ -849,11 +849,11 @@ async function getTitles() {
 
     switch (title) {
         case undefined:
-            document.title = `Tsubasa List - unbekannt`;
+            document.title = `Miri List - unbekannt`;
             document.getElementById("manga_title").innerHTML = `<h1>unbekannt</h1>`;
             break;
         default:
-            document.title = `Tsubasa List - ${title}`;
+            document.title = `Miri List - ${title}`;
             document.getElementById("manga_title").innerHTML = `<h1>${title}</h1>`;
             break
 

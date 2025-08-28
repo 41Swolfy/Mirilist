@@ -6,9 +6,9 @@ function buildbody() {
   // Get the body element of the HTML document
   const body = document.getElementsByTagName("body")[0];
 
-  // Create a main container div element with an ID of Tsubasa-list-main and append it to the body
+  // Create a main container div element with an ID of Miri-list-main and append it to the body
   const Main = document.createElement("div");
-  Main.setAttribute("id", "Tsubasa-list-main");
+  Main.setAttribute("id", "Miri-list-main");
   body.appendChild(Main);
 
   // Create a div element for the manga header section with a class of manga_header and append it to the main container
